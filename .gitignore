@@ -1,0 +1,30 @@
+# Папка PyCharm
+.idea/
+
+# Виртуальное окружение Python
+.venv/
+venv/
+env/
+ENV/
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Файлы VS Code (если вдруг будете использовать)
+.vscode/
+
+# Системные файлы
+.DS_Store  # для Mac
+Thumbs.db  # для Windows
+
+# Файлы с секретами (никогда не коммитьте их!)
+.env
+*.env
+
+# Базы данных (если есть)
+*.db
+*.sqlite
+*.sqlite3
